@@ -1,3 +1,4 @@
+
 /*Utility Classes*/
 
 *{box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
@@ -63,6 +64,14 @@ img{border:0; max-width:100%;}
 .w95{width:95%;}
 
 .w100{width:100%;}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.dFlex {
+    display: flex;
+}
 
 .cookiesBorder {
     text-align: center;
@@ -167,7 +176,7 @@ img{border:0; max-width:100%;}
 }
 .logoBorder .logoto{
     display: inline-block;
-    width: 142.7px;
+    width: 142.3px;
     height: 88px;
     background-image: url(./images/logo.png);
 }
@@ -175,18 +184,185 @@ img{border:0; max-width:100%;}
 .logoBorder .logoBtns{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    padding: 40px;
+    
 }
 .logoBorder .logoBtns a{
     margin: 0 20px 0 0;
+    text-decoration: none;
+    color:#000;
 }
-.logoBtn{ text-decoration: none;
-
+.logoBorder .logoBtns a:hover{
+    color: #008eb0;
+}
+.logoBtn {
+    text-align: center;
+}
+.logoBtn a { 
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: #FFF;
 }
 
-.logoBtns:hover{
+.logoBtns .howItWorks:hover{
     background-color: #008eb0;
 }
+
+.logoBtns .referAFriend:hover{
+    background-color: #008eb0;
+}
+.logoBtns .BookADemo:hover{
+    background-color: #19829c;
+}
+
 
 .logoBorder .logoBtn{
     background-color:#008eb0 ;
 }
+
+.videoBorder .image{
+    background-image: url('./images/homepage_pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 640px;
+    width: 100%;
+    display: inline-block;
+}
+
+.videoBorder .imageText{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: 'Open Sans', 'sans-serif';
+}
+.imageText .blueText{
+    color: #008eb0;
+}
+.videoBorder .video{
+    margin-left: 295px;
+}
+.whiteBorder h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Open Sans', 'sans-serif';
+}
+.whiteBorder .blueText1{
+    color:#008eb0;
+}
+
+.whiteBorder .smallIcon{
+    display: inline-block;
+    width: 25px;
+    height: 35px;
+    background-position: -165px -344px;
+    background-image: url(./images/icons.png);
+    margin-right: 20px;
+}
+.h2{
+}
+.whiteBorder .bluep1{
+    font-size: 22px;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #008eb0;
+    
+}
+.whiteBorder .bluep2{
+    font-size: 22px;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #008eb0;
+}
+.whiteBorder .bluep3{
+    font-size: 22px;
+    font-family: 'Open Sans', 'sans-serif';
+    color: #008eb0;
+}
+.wrap1{
+    max-width: 750px;
+    width: 208%;
+
+}
+.wrap2{
+    max-width: 890px;
+    width: 96%;
+    margin: 0 auto;
+}
+.whiteBorder .tick{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background-image: url(./images/tick.png);
+}
+
+
+.whiteBorder .paragraf{
+    font-size: 18px;
+    font-family: 'Open Sans', 'sans-serif';
+    color: black;
+}
+
+.whiteBorder .aboutWrapper {
+    justify-content: center;
+    align-items: center;
+}
+.whiteBorder .p1{
+    font-size: 18px;
+    font-family: 'Open Sans', 'sans-serif';
+    margin-left: 8px;
+}
+.whiteBorder .p2{
+    font-size: 18px;
+    font-family: 'Open Sans', 'sans-serif';
+    margin-left: 8px;
+}
+.whiteBorder .button {
+    width: 277px;
+     height: 44px;
+      display: inline-block;
+       background-color: #00bac1;
+        font-family: 'Open Sans';
+         font-weight: 400; color: #fff;
+          font-size:14px; text-decoration: none;
+           padding: 10px 0px;
+            border-bottom: 4px solid #008eb0;
+        }
+.whiteBorder .whButton {
+    text-align: center;
+     padding: 35px 0 75px;
+    }
+
+
+    .marketBorder {
+        background-image: url(../images/stats_pic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; background-position: center;
+    }
+    .marketBorder .titleVersia1 {
+        font-size: 32px; text-align: center; color: #fff; padding: 90px 0;
+    }
+    .marketBorder .stats {
+        background-image: url(../images/icons.png);
+        width: 242px;
+        height: 242px;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: 1%;
+        padding-top: 170px;
+    }
+    
+    .marketBorder .stats1 {
+        background-position: 0 -103px;
+    }
+    .marketBorder .stats2 {
+        background-position: -243px -103px;
+    }
+    .marketBorder .stats3 {
+        background-position: -486px -103px;
+    }
+    .marketBorder .statsNumbers, .sectionStats .w22 h2 {
+        font-family: 'open sans'; 
+        font-size: 32px; 
+        font-weight: 400; color: #fff; 
+        text-align: center;
+    }
